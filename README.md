@@ -2,7 +2,7 @@
 
 - 🧬 Experience in genomics, transcriptomics, proteomics and genotyping data analysis, as well as bioinformatics pipeline development.
 - 🌎 Mexican 🇲🇽 with international research experience 🇨🇭🇩🇪
-- 💻 Work mainly in R, Python, Nextflow, Bash, LaTeX, C++ & SQL
+- 👨🏻‍💻 Work mainly in R, Python, Nextflow, Bash, LaTeX, C++ & SQL
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/a-efraín-m-b6527331b/)
 
  <!--
