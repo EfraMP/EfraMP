@@ -6,9 +6,9 @@
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/a-efraín-m-b6527331b/)
 
 
-![Stats](./profile/stats.svg)
 
  <!--
+![Stats](./profile/stats.svg)
 ## 📦 Open Source
 
 - **nf-core/mcmicro** — `mcstaging/macsima2mc` module *(Mar 2026)*
