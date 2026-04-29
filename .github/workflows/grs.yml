@@ -23,7 +23,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide=HTML,Jupyter%20Notebook,TeX&count_private=true&include_all_commits=true
+          options: username=${{ github.repository_owner }}&layout=donut&hide=HTML,Jupyter%20Notebook,TeX&count_private=true&include_all_commits=true&theme=tokyonight
           path: profile/langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
