@@ -5,6 +5,13 @@
 - 👨🏻‍💻 Work mainly in R, Python, Nextflow, Bash, LaTeX, C++ & SQL
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/a-efraín-m-b6527331b/)
 
+<div align="center">
+
+
+![Top Languages](./profile/langs.svg)
+
+
+</div>
 
 
  <!--
