@@ -1,8 +1,8 @@
 
       <svg
-        width="300"
-        height="165"
-        viewBox="0 0 300 165"
+        width="350"
+        height="215"
+        viewBox="0 0 350 215"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #2f80ed;
+            fill: #70a5fd;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #434d58;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #38bdae;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #434d58;
+      fill: #38bdae;
     }
     .stagger {
       opacity: 0;
@@ -92,8 +92,8 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="299"
-          fill="#fffefe"
+          width="349"
+          fill="#1a1b27"
           stroke-opacity="1"
         />
 
@@ -120,116 +120,104 @@
           
     <svg data-testid="lang-items" x="25">
       
-  
-      <mask id="rect-mask">
-          <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
-        </mask>
-        
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="0"
-          y="0"
-          width="97.29"
-          height="8"
-          fill="#198CE7"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="97.29"
-          y="0"
-          width="62.91"
-          height="8"
-          fill="#3572A5"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="160.2"
-          y="0"
-          width="38.16"
-          height="8"
-          fill="#3ac486"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="198.35999999999999"
-          y="0"
-          width="21.59"
-          height="8"
-          fill="#89e051"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="219.95"
-          y="0"
-          width="15.49"
-          height="8"
-          fill="#384d54"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="235.44"
-          y="0"
-          width="14.57"
-          height="8"
-          fill="#f1e05a"
-        />
-      
-      
-    <g transform="translate(0, 25)">
-      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+    <g transform="translate(0, 0)">
+      <g transform="translate(0, 0)">
+        <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#198CE7" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        R 38.92%
+        R 41.33%
       </text>
     </g>
-  </g><g transform="translate(0, 25)">
+  </g><g transform="translate(0, 32)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 25.16%
+        Python 26.72%
       </text>
     </g>
-  </g><g transform="translate(0, 50)">
+  </g><g transform="translate(0, 64)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3ac486" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Nextflow 15.26%
+        Nextflow 16.21%
       </text>
     </g>
-  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
+  </g><g transform="translate(0, 96)">
+    <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#89e051" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Shell 8.63%
+        Shell 9.17%
       </text>
     </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
+  </g><g transform="translate(0, 128)">
+    <g class="stagger" style="animation-delay: 1050ms">
       <circle cx="5" cy="6" r="5" fill="#384d54" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Dockerfile 6.19%
+        Dockerfile 6.58%
       </text>
     </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 5.83%
-      </text>
-    </g>
-  </g></g>
+  </g>
+      </g>
+
+      <g transform="translate(125, -45)">
+        <svg width="350" height="350">
+       <g class="stagger" style="animation-delay: 600ms">
+        <path
+          data-testid="lang-donut"
+          size="41.33"
+          d="M 146.03168155464334 165.13115894441597 A 56.66666666666667 56.66666666666667 0 0 0 116.66666666666667 60"
+          stroke="#198CE7"
+          fill="none"
+          stroke-width="12">
+        </path>
+      </g>
+      
+       <g class="stagger" style="animation-delay: 700ms">
+        <path
+          data-testid="lang-donut"
+          size="26.72"
+          d="M 65.31758808746022 140.63296050150052 A 56.66666666666667 56.66666666666667 0 0 0 146.03168155464334 165.13115894441597"
+          stroke="#3572A5"
+          fill="none"
+          stroke-width="12">
+        </path>
+      </g>
+      
+       <g class="stagger" style="animation-delay: 800ms">
+        <path
+          data-testid="lang-donut"
+          size="16.21"
+          d="M 69.3238066720636 85.52562110550215 A 56.66666666666667 56.66666666666667 0 0 0 65.31758808746022 140.63296050150052"
+          stroke="#3ac486"
+          fill="none"
+          stroke-width="12">
+        </path>
+      </g>
+      
+       <g class="stagger" style="animation-delay: 900ms">
+        <path
+          data-testid="lang-donut"
+          size="9.17"
+          d="M 93.93310318700071 64.76005627235264 A 56.66666666666667 56.66666666666667 0 0 0 69.3238066720636 85.52562110550215"
+          stroke="#89e051"
+          fill="none"
+          stroke-width="12">
+        </path>
+      </g>
+      
+       <g class="stagger" style="animation-delay: 1000ms">
+        <path
+          data-testid="lang-donut"
+          size="6.58"
+          d="M 116.70227138106466 60.00001118555129 A 56.66666666666667 56.66666666666667 0 0 0 93.93310318700071 64.76005627235264"
+          stroke="#384d54"
+          fill="none"
+          stroke-width="12">
+        </path>
+      </g>
+      </svg>
+      </g>
     </g>
   
     </svg>
