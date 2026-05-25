@@ -126,14 +126,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#198CE7" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        R 41.37%
+        R 41.36%
       </text>
     </g>
   </g><g transform="translate(0, 32)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 26.70%
+        Python 26.71%
       </text>
     </g>
   </g><g transform="translate(0, 64)">
@@ -165,8 +165,8 @@
        <g class="stagger" style="animation-delay: 600ms">
         <path
           data-testid="lang-donut"
-          size="41.37"
-          d="M 145.90978438585736 165.20480813471906 A 56.66666666666667 56.66666666666667 0 0 0 116.66666666666667 60"
+          size="41.36"
+          d="M 145.9402760252218 165.18642456212433 A 56.66666666666667 56.66666666666667 0 0 0 116.66666666666667 60"
           stroke="#198CE7"
           fill="none"
           stroke-width="12">
@@ -176,8 +176,8 @@
        <g class="stagger" style="animation-delay: 700ms">
         <path
           data-testid="lang-donut"
-          size="26.7"
-          d="M 65.28751170593061 140.56841444024553 A 56.66666666666667 56.66666666666667 0 0 0 145.90978438585736 165.20480813471906"
+          size="26.71"
+          d="M 65.2875117059306 140.56841444024553 A 56.66666666666667 56.66666666666667 0 0 0 145.9402760252218 165.18642456212433"
           stroke="#3572A5"
           fill="none"
           stroke-width="12">
@@ -188,7 +188,7 @@
         <path
           data-testid="lang-donut"
           size="16.2"
-          d="M 69.34338251187387 85.4958808582234 A 56.66666666666667 56.66666666666667 0 0 0 65.28751170593061 140.56841444024553"
+          d="M 69.34338251187387 85.4958808582234 A 56.66666666666667 56.66666666666667 0 0 0 65.2875117059306 140.56841444024553"
           stroke="#3ac486"
           fill="none"
           stroke-width="12">
