@@ -13,12 +13,12 @@ jobs:
 
       - name: Generate stats card
         run: |
-          curl -s "https://github-readme-stats-yo-15e2.vercel.app/api?username=EfraMp&show_icons=true&theme=github_dark" \
+          curl -L -s "https://github-readme-stats-yo-15e2.vercel.app/api?username=EfraMp&show_icons=true&theme=github_dark" \
             -o profile/stats.svg
-
+      
       - name: Generate top languages card
         run: |
-          curl -s "https://github-readme-stats-yo-15e2.vercel.app/api/top-langs/?username=EfraMp&layout=donut&hide=HTML,Jupyter%20Notebook,TeX&count_private=true&theme=github_dark&exclude_repo=hover-paywalls-browser-extension" \
+          curl -L -s "https://github-readme-stats-yo-15e2.vercel.app/api/top-langs/?username=EfraMp&layout=donut&hide=HTML,Jupyter%20Notebook,TeX&count_private=true&theme=github_dark&exclude_repo=hover-paywalls-browser-extension" \
             -o profile/langs.svg
 
       - name: Commit cards
